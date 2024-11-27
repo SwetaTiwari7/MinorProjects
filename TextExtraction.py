@@ -1,6 +1,6 @@
 import cv2
 import pytesseract 
-im_file= "Screenshot 2024-11-16 135119.jpg"
+im_file= "Screenshot 2024-08-13 195321.jpg"
 img=cv2.imread(im_file)
 img2=cv2.fastNlMeansDenoisingColored(img,7)                                                                   #nimg=cv2.GaussianBlur(img,(5,5),0)
 cv2.imshow("Noise Reduction",img2)
